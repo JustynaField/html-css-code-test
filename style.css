@@ -1,0 +1,47 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.status, .profile-nav, .profile-details p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 25px;
+}
+
+.company-logo {
+  height: 40%;
+}
+
+.top-nav {
+  color: #969696;
+}
+
+nav {
+  text-decoration: none;
+}
+
+.primary-nav, .secondary-nav li, .title {
+  text-transform: uppercase;
+}
+
+.secondary-nav {
+  background-color: #aaa;
+  color: #fff;
+}
+
+.search, .contact-me {
+  background-color: #237377;
+}
+
+.banner {
+  background-color: #eee;
+}
+
+footer {
+  background-color: #2399a6;
+  color: #fff;
+}

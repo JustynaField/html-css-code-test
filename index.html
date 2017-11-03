@@ -5,22 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:400,700" rel="stylesheet">
     <title>TEN Realty</title>
   </head>
   <body>
 
     <header>
       <div>
-        <img src="Assets/SVGs/TEN-logo.svg" alt="Company Logo" />
+        <img src="Assets/SVGs/TEN-logo.svg" alt="Company Logo" class="company-logo"/>
       </div>
       <div>
-        <nav>
+        <nav class="top-nav">
           <ul>
             <li><img src="Assets/SVGs/contact.svg" alt="phone icon"/>Contact</li>
             <li><img src="Assets/SVGs/account.svg" alt="person icon"/>Account</li>
           </ul>
         </nav>
-        <nav>
+        <nav class="primary-nav">
           <ul>
             <li>search</li>
             <li>communities</li>
@@ -32,9 +33,9 @@
     </header>
 
     <main>
-      <nav>
-        <input />
-        <button>Search</button>
+      <nav class="secondary-nav">
+        <input placeholder="Address, City, Zip, or MLS#"/>
+        <button class="search">Search</button>
         <ul>
           <li>new listings</li>
           <li>open houses</li>
@@ -42,12 +43,12 @@
         </ul>
       </nav>
 
-      <section>
+      <section class="banner">
         <img src="Assets/Realtor Image/saramortensun.jpg" alt="Professional Photograph of Jane Smith">
         <div>
-          <h2>Jane Smith</h2>
+          <h2 class="status">Jane Smith</h2>
           <h4>REALTOR&#174;</h4>
-          <button>Contact Me</button>
+          <button class="contact-me">Contact Me</button>
           <nav>
             <img src="Assets/SVGs/facebook.svg" alt="Facebook Icon" />
             <img src="Assets/SVGs/linkedin.svg" alt="Linkedin Icon" />
@@ -67,9 +68,9 @@
       </nav>
       </section>
 
-      <section>
+      <section class="profile-details">
 
-        <nav>
+        <nav class="profile-nav">
           <ul>
             <li>About Me</li>
             <li>My Listings</li>
@@ -82,9 +83,9 @@
         </p>
 
         <div>
-          <h3>LANGUAGE</h3>
+          <h3 class="title">language</h3>
           <p>Deutch, Finnish, Spannish</p>
-          <h3>DESIGNATIONS</h3>
+          <h3 class="title">designations</h3>
           <p>CRS, GRI, CNE</p>
         </div>
       </section>
