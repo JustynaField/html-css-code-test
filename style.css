@@ -134,15 +134,15 @@ header {
 .banner {
   display: flex;
   justify-content: space-between;
-  height: 380px
+  height: 360px
 }
 
 .photo {
-  width: 300px;
+  width: 265px;
 }
 
 .basic-info {
-  width: 200px;
+  width: 25%;
   margin-top: 50px;
 }
 
@@ -161,15 +161,40 @@ header {
 
 .contact-me {
   height: 37px;
-  width: 200px;
+  width: 230px;
   margin-top: 10px;
 }
 
 .social-media {
   display: flex;
   justify-content: space-between;
-  width: 200px;
+  width: 230px;
   margin-top: 26px;
+}
+
+.contact-details {
+  width: 30%;
+  margin-top: 55px;
+}
+
+.contact-details li {
+  margin-bottom: 18px;
+  font-weight: bold;
+}
+
+.phone-icon {
+  width: 24px;
+}
+
+.phone-no {
+  /*margin-left: 9%;*/
+  margin-left: 15px;
+}
+
+.contact-details a {
+  /*margin-left: 5%;*/
+  margin-left: 15px;
+  color: #2399a6;
 }
 
 
