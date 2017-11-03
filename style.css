@@ -1,3 +1,4 @@
+/*fonts*/
 body {
   font-family: 'Lato', sans-serif;
 }
@@ -6,6 +7,30 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.secondary-nav, .banner, .profile-details, footer {
+  margin: 0 100px;
+}
+
+/*container colors*/
+.secondary-nav-container {
+  background-color: #aaa;
+}
+
+.banner-container {
+  background-color: #eee;
+}
+
+.footer-container {
+  background-color: #2399a6;
+}
+
+
+.primary-nav, .secondary-nav li, .title {
+  text-transform: uppercase;
+}
+
+
+/*header*/
 header {
   display: flex;
   justify-content: space-between;
@@ -20,16 +45,16 @@ header {
   color: #969696;
 }
 
-nav {
+/*nav {
   text-decoration: none;
-}
+}*/
 
-.primary-nav, .secondary-nav li, .title {
-  text-transform: uppercase;
-}
+
+
+
+
 
 .secondary-nav {
-  background-color: #aaa;
   color: #fff;
 }
 
@@ -37,11 +62,7 @@ nav {
   background-color: #237377;
 }
 
-.banner {
-  background-color: #eee;
-}
 
 footer {
-  background-color: #2399a6;
   color: #fff;
 }
