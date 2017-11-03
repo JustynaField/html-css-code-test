@@ -1,9 +1,9 @@
 /*fonts*/
-body {
+body, .search, .contact-me {
   font-family: 'Lato', sans-serif;
 }
 
-.status, .profile-nav, .profile-details p {
+.status, .profile-nav, .profile-details p, .search-input {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -12,9 +12,6 @@ body {
 }
 
 /*container colors*/
-.secondary-nav-container {
-  background-color: #aaa;
-}
 
 .banner-container {
   background-color: #eee;
@@ -34,8 +31,7 @@ ul {
 }
 
 
-
-/*header*/
+/*HEADER*/
 header {
   display: flex;
   justify-content: space-between;
@@ -43,8 +39,8 @@ header {
 }
 
 .company-logo {
-  height: 90%;
-  margin-top: 10px;
+  height: 88%;
+  margin-top: 8px;
 }
 
 .top-nav-container {
@@ -64,7 +60,7 @@ header {
 
 .top-nav-btn {
   text-align: center;
-  fill: #237377;
+  /*fill: #237377;*/
 }
 
 .top-nav-btn p {
@@ -84,14 +80,96 @@ header {
 }
 
 
-
+/*SECONDARY NAV*/
+.secondary-nav-container {
+  background-color: #aaa;
+  height: 60px;
+}
 
 .secondary-nav {
+  display: flex;
+  padding-top: 11px;
   color: #fff;
+}
+
+.search-input {
+  height: 35px;
+  width: 340px;
+  font-size: 14px;
+  padding: 0 0 2px 15px;
+}
+
+.search {
+  height: 37px;
+  width: 150px;
+  margin: 0 25px;
+}
+
+.search-input, .search, .contact-me {
+  outline: none;
+  border: none;
 }
 
 .search, .contact-me {
   background-color: #237377;
+  border-radius: 2.5px;
+  color: #fff;
+  letter-spacing: .05em;
+}
+
+.secondary-nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 500px;
+  margin: 0;
+}
+
+.secondary-nav li {
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+/*BANNER CONTAINER*/
+.banner {
+  display: flex;
+  justify-content: space-between;
+  height: 380px
+}
+
+.photo {
+  width: 300px;
+}
+
+.basic-info {
+  width: 200px;
+  margin-top: 50px;
+}
+
+.name {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 38px;
+  margin: 18px 0;
+}
+
+.status {
+  color: #aaa;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.contact-me {
+  height: 37px;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin-top: 26px;
 }
 
 

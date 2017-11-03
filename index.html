@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="normalize.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:400,600,700" rel="stylesheet">
     <title>TEN Realty</title>
   </head>
   <body>
@@ -35,7 +35,7 @@
     <main>
       <div class="secondary-nav-container">
         <nav class="secondary-nav">
-          <input placeholder="Address, City, Zip, or MLS#"/>
+          <input placeholder="Address, City, Zip, or MLS#" class="search-input"/>
           <button class="search">Search</button>
           <ul>
             <li>new listings</li>
@@ -45,14 +45,15 @@
         </nav>
       </div>
 
+
       <div class="banner-container">
         <section class="banner">
-          <img src="Assets/Realtor Image/saramortensun.jpg" alt="Professional Photograph of Jane Smith">
-          <div>
-            <h2 class="status">Jane Smith</h2>
-            <h4>REALTOR&#174;</h4>
+          <img src="Assets/Realtor Image/saramortensun.jpg" alt="Professional Photograph of Jane Smith" class="photo">
+          <div class="basic-info">
+            <h2 class="name">Jane Smith</h2>
+            <h4 class="status">REALTOR&#174;</h4>
             <button class="contact-me">Contact Me</button>
-            <nav>
+            <nav class="social-media">
               <img src="Assets/SVGs/facebook.svg" alt="Facebook Icon" />
               <img src="Assets/SVGs/linkedin.svg" alt="Linkedin Icon" />
               <img src="Assets/SVGs/twitter.svg" alt="Twitter Icon" />
