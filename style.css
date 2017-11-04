@@ -230,6 +230,9 @@ header {
   padding-right: 10%;
   font-size: 14px;
   color: #595959;
+}
+
+.description {
   line-height: 1.8em;
 }
 
