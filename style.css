@@ -1,6 +1,7 @@
 /*fonts*/
 body, .search, .contact-me {
   font-family: 'Lato', sans-serif;
+  /*letter-spacing: .02em;*/
 }
 
 .status, .profile-nav, .profile-details p, .search-input {
@@ -12,7 +13,6 @@ body, .search, .contact-me {
 }
 
 /*container colors*/
-
 .banner-container {
   background-color: #eee;
 }
@@ -60,7 +60,6 @@ header {
 
 .top-nav-btn {
   text-align: center;
-  /*fill: #237377;*/
 }
 
 .top-nav-btn p {
