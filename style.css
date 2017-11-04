@@ -251,5 +251,61 @@ header {
 
 /*footer*/
 footer {
-  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0 30px 0;
+  color: #fffefe;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+footer .phone {
+  padding-right: 10px;
+}
+
+.phone-info {
+  margin-bottom: 12px;
+}
+
+.contact-info {
+  margin: 0;
+}
+
+.address {
+  margin: 0;
+}
+
+.footer-extra {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+
+footer li {
+  /*font-size: 14px;*/
+  border-bottom: 1px solid #91ccd3;
+}
+
+footer li:hover {
+  border-bottom: 1px solid #fff;
+}
+
+.rights {
+  font-size: 12px;
+  margin: 0 0 15px 0;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
+  height: 40px;
 }
