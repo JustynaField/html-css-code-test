@@ -168,6 +168,7 @@ header {
   display: flex;
   justify-content: space-between;
   width: 230px;
+  height: 30px;
   margin-top: 26px;
 }
 
@@ -186,8 +187,8 @@ header {
 }
 
 .phone-no {
-  /*margin-left: 9%;*/
   margin-left: 15px;
+  color: #565656;
 }
 
 .contact-details a {
