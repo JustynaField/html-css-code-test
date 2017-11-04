@@ -21,7 +21,6 @@ body, .search, .contact-me {
   background-color: #2399a6;
 }
 
-
 .primary-nav, .secondary-nav li, .title {
   text-transform: uppercase;
 }
@@ -29,7 +28,6 @@ body, .search, .contact-me {
 ul {
   list-style: none;
 }
-
 
 /*HEADER*/
 header {
@@ -92,14 +90,14 @@ header {
 }
 
 .search-input {
-  height: 35px;
-  width: 340px;
+  height: 37px;
+  width: 350px;
   font-size: 14px;
   padding: 0 0 2px 15px;
 }
 
 .search {
-  height: 37px;
+  height: 39px;
   width: 150px;
   margin: 0 25px;
 }
@@ -120,7 +118,7 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 500px;
+  width: 600px;
   margin: 0;
 }
 
@@ -197,11 +195,16 @@ header {
 }
 
 
-/*profile nav*/
+/*profile*/
+.profile-details {
+  padding-bottom: 40px;
+}
+
 .profile-nav ul{
   display: flex;
   margin-top: 45px;
   padding: 0;
+  padding-bottom: 15px;
   width: 100%;
 }
 
@@ -226,14 +229,14 @@ header {
 }
 
 .content-container p {
-  width: 75%;
-  padding-right: 10%;
   font-size: 14px;
   color: #595959;
 }
 
 .description {
   line-height: 1.8em;
+  width: 75%;
+  padding-right: 10%;
 }
 
 .extra-info {
@@ -253,7 +256,7 @@ header {
 footer {
   display: flex;
   justify-content: space-between;
-  padding: 15px 0 30px 0;
+  padding: 10px 0 25px 0;
   color: #fffefe;
 }
 
@@ -290,7 +293,6 @@ footer ul {
 }
 
 footer li {
-  /*font-size: 14px;*/
   border-bottom: 1px solid #91ccd3;
 }
 
@@ -308,4 +310,58 @@ footer li:hover {
   justify-content: space-between;
   width: 80px;
   height: 40px;
+}
+
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 1200px) {
+
+  .secondary-nav, .banner, .profile-details, footer {
+    margin: 0 65px;
+  }
+
+  .secondary-nav ul {
+    padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+
+  .secondary-nav, .banner, .profile-details, footer {
+    margin: 0 20px;
+  }
+
+  .company-logo {
+    height: 75%;
+  }
+
+  .primary-nav {
+    display: none;
+  }
+
+  .top-nav-ul {
+    height: 50px;
+    margin: 0;
+    align-items: center;
+  }
+
+  .secondary-nav ul {
+    padding-left: 0;
+  }
+
+  .search {
+    margin: 0 15px;
+  }
+
+  .description {
+    padding-right: 5%;
+  }
+
+  .profile-nav ul {
+    margin-bottom: 5px;
+  }
+
+  .profile-details {
+    padding-bottom: 25px;
+  }
 }
