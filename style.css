@@ -85,12 +85,19 @@ header {
 .secondary-nav-container {
   background-color: #aaa;
   height: 60px;
+  box-shadow: 0 3px 10px #aaa;
+  opacity: 0.99;
+}
+
+.photo {
+  z-index: 2;
 }
 
 .secondary-nav {
   display: flex;
   padding-top: 11px;
   color: #fff;
+  font-weight: bold;
 }
 
 .search-input {
@@ -104,6 +111,7 @@ header {
   height: 39px;
   width: 150px;
   margin: 0 25px;
+  font-weight: bold;
 }
 
 .search p {
