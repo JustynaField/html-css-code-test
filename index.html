@@ -12,15 +12,14 @@
   <body>
 
     <header>
-      <div>
-        <img src="Assets/SVGs/TEN-logo.svg" alt="Company Logo" class="company-logo"/>
-      </div>
+      <img src="Assets/SVGs/TEN-logo.svg" alt="Company Logo" class="company-logo full-logo"/>
+      <img src="Assets/SVGs/TEN-logo-mark.svg" alt="Company Logo" class="company-logo small-logo"/>
       <div class="top-nav-container">
         <nav>
           <ul class="top-nav-ul">
             <li class="top-nav-btn"><img src="Assets/SVGs/contact.svg" alt="phone icon" width="14"/><p class="top-nav-text"/><p>Contact</p></li>
             <li class="top-nav-btn"><img src="Assets/SVGs/account.svg" alt="person icon" width="14"/><p>Account</p></li>
-            <li class="top-nav-btn"><img src="Assets/SVGs/menu.svg" alt="menu icon" width="14"/><p>Menu</p></li>
+            <li class="top-nav-btn hamburger-menu"><img src="Assets/SVGs/menu.svg" alt="menu icon" width="14"/><p>Menu</p></li>
           </ul>
         </nav>
         <nav>
@@ -38,8 +37,11 @@
       <div class="secondary-nav-container">
         <nav class="secondary-nav">
           <input placeholder="Address, City, Zip, or MLS#" class="search-input"/>
-          <button class="search">Search</button>
-          <ul>
+          <button class="search">
+            <p class="btn-text">Search</p>
+            <img src="Assets/SVGs/search.svg" alt="Search Icon" class="search-icon" />
+          </button>
+          <ul class="secondary-nav-ul">
             <li>new listings</li>
             <li>open houses</li>
             <li>map search</li>
@@ -67,7 +69,7 @@
             <ul>
               <li><img src="Assets/SVGs/contact.svg" alt="Phone Icon"/ width="23.5"><span class="phone-no">530.830.2150</span></li>
               <li><img src="Assets/SVGs/website.svg" alt="Website Icon" width="25" /><a>Visit my website</a></li>
-              <li><img src="Assets/SVGs/office.svg" alt="Office Icon" width="23" /><a>Denver Office</a></li>
+              <li><img src="Assets/SVGs/office.svg" alt="Office Icon" width="23" /><a>Denver office</a></li>
               <li><img src="Assets/SVGs/enewsletter.svg" alt="Newsletter Icon" width="24"/><a>eNewsletter Sign Up</a></li>
             <ul>
           </nav>
@@ -82,6 +84,11 @@
             <li>My Solds</li>
             <li>Testimonials</li>
           </ul>
+
+          <div class="select-menu">
+            <p>About Me</p>
+            <img src="Assets/SVGs/angle-down.svg" />
+          </div>
         </nav>
 
         <div class="content-container">
