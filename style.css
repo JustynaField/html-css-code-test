@@ -143,16 +143,13 @@ header {
 .banner {
   display: flex;
   justify-content: space-between;
-  height: 360px
-}
-
-.photo {
-  width: 265px;
+  align-items: center;
+  /*height: 360px*/
 }
 
 .basic-info {
-  width: 25%;
-  margin-top: 50px;
+  /*width: 25%;*/
+  /*margin-top: 50px;*/
 }
 
 .name {
@@ -184,7 +181,7 @@ header {
 
 .contact-details {
   width: 30%;
-  margin-top: 55px;
+  /*margin-top: 55px;*/
 }
 
 .contact-details li {
@@ -382,6 +379,27 @@ footer li:hover {
     margin: 0 15px;
   }
 
+  /*.name {
+    width: 200px;
+  }*/
+  /*.WRONG: photo {
+    width: 159px;
+    height: 218px;
+  } ------------- */
+
+  /*.banner {
+    height: 289px;
+  }
+
+  .photo {
+    width: 210px;
+    height: 289px;
+  }*/
+
+  .contact-details ul {
+    padding-left: 0
+  }
+
   .description {
     padding-right: 5%;
   }
@@ -425,8 +443,14 @@ footer li:hover {
 
   .banner {
     flex-direction: column;
+    align-items: flex-start;
     height: 100%
   }
+
+  /*.photo {
+    width: 210px;
+    height: 289px;
+  }*/
 
   .profile-nav ul {
     display: none
