@@ -85,7 +85,7 @@ header {
 .secondary-nav-container {
   background-color: #aaa;
   height: 60px;
-  box-shadow: 0 3px 10px #aaa;
+  box-shadow: 0 5px 10px #aaa;
   opacity: 0.99;
 }
 
@@ -102,14 +102,15 @@ header {
 
 .search-input {
   height: 37px;
-  width: 350px;
+  max-width: 253px;
+  width: 100%;
   font-size: 14px;
   padding: 0 0 2px 15px;
 }
 
 .search {
   height: 39px;
-  width: 150px;
+  width: 180px;
   margin: 0 25px;
   font-weight: bold;
 }
@@ -128,6 +129,8 @@ header {
   border-radius: 2.5px;
   color: #fff;
   letter-spacing: .05em;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .search-icon {
@@ -145,6 +148,7 @@ header {
 .secondary-nav li {
   font-size: 16px;
   text-decoration: underline;
+  padding-left: 10px;
 }
 
 /*BANNER*/
@@ -159,6 +163,7 @@ header {
   font-weight: 400;
   font-size: 38px;
   margin: 18px 0;
+  color: #323232;
 }
 
 .status {
@@ -338,12 +343,21 @@ footer li:hover {
 /*MEDIA QUERIES*/
 @media screen and (max-width: 1200px) {
 
+  header {
+    margin: 0 25px;
+  }
+
   .secondary-nav, .banner, .profile-details, footer {
     margin: 0 65px;
   }
 
   .secondary-nav ul {
     padding-left: 15px;
+  }
+
+  .search-input {
+    min-width: 213px;
+    /*max-width: 275px;*/
   }
 }
 
@@ -407,6 +421,11 @@ footer li:hover {
     display: block;
   }
 
+  .search-input {
+    min-width: 170px;
+    max-width: 195px;
+  }
+
   .btn-text {
     display: none;
   }
@@ -458,12 +477,12 @@ footer li:hover {
     align-items: center;
     width: 92%;
     height: 38px;
-    border: 1px solid #595959;
+    border: 1.1px solid #aaa;
     padding: 0 12px;
   }
 
   .select-menu p {
-    color: #2399a6;
+    color: #237377;
     font-weight: bold
   }
 
