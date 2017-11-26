@@ -8,3 +8,6 @@ https://justynafield.github.io/html-css-code-test/
 #### Design Comp:
 ![Design](Assets/Designs/large.jpg)
 
+![Design](Assets/Designs/medium)
+
+![Design](Assets/Designs/small.png)
