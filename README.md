@@ -1,4 +1,4 @@
-## HTML-CSS Code Test
+## HTML-CSS Code Challenge
 
 Responsive website recreated from design comps provided in four different screen sizes.
 
